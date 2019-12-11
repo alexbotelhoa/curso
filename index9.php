@@ -30,10 +30,10 @@ switch(session_status()) {
         break;
 
     case PHP_SESSION_NONE:
-        echo "Seções habilitadas, mas nenhum ativa";
+        echo "Sessões habilitadas, mas nenhum ativa";
         break;
 
     case PHP_SESSION_ACTIVE:
-        echo "Seções habilitadas, pelo menos uma ativa";
+        echo "Sessões habilitadas, pelo menos uma ativa";
         break;
 }
