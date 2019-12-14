@@ -1,0 +1,27 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Alex Botelho
+ * Date: 14/12/2019
+ * Time: 11:24
+ */
+
+$conn = new PDO("mysql:dbname=dbphp7;host=localhost","root","");
+
+$stmt = $conn->prepare("SELECT * FROM tb_usuarios ORDER BY deslogin");
+
+$stmt->execute();
+
+$results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+foreach ($results as $row) {
+
+    foreach ($row as $key => $value) {
+
+        echo "<strong>" . $key . "</strong> " . $value . "<br>";
+
+    }
+
+    echo "====================================<br>";
+
+}
