@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bda63feb-f0f8-4e3e-88f3-a3192f8e7f5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/abstrata/index21.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Delrey.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/index23.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/index24.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqli/index26.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqli/index27.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/namespace/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/namespace/index25.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdo/index28.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polimorfismo/index22.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index9.php" afterPath="" />
+    <list default="true" id="bda63feb-f0f8-4e3e-88f3-a3192f8e7f5a" name="Default" comment="Manhã 14/12/2019">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1b5c5a54-eb23-4009-9c6e-41f6a65354e5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array/index11.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/abstrata/Automovel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/index15.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/index16.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/index17.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/index18.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/index19.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/date/index13.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/date/index14.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function/index10.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function/index12.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global/index7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global/index8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/global/index9.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface/index20.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/index6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loops/index5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/namespace/class/Cadastro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/namespace/class/Cliente/Cadastro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script_cursophp7.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variaveis/index2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variaveis/index3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/variaveis/index4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,14 +49,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index28.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index28.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdo/index28.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <marker date="1576330660295" expanded="true" signature="186:229" ph="SELECT * FRO... tb_usuarios" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index10.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/function/index10.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index16.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/index16.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,6 +98,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -175,6 +199,16 @@
               <item name="curso" type="b2602c69:ProjectViewProjectNode" />
               <item name="curso" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="curso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="class" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="curso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="date" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +254,7 @@
       <workItem from="1576152253657" duration="15911000" />
       <workItem from="1576170123462" duration="9073000" />
       <workItem from="1576268218335" duration="9322000" />
-      <workItem from="1576326304018" duration="4139000" />
+      <workItem from="1576326304018" duration="4625000" />
     </task>
     <task id="LOCAL-00001" summary="Correções">
       <created>1576101369292</created>
@@ -229,23 +263,30 @@
       <option name="project" value="LOCAL" />
       <updated>1576101369292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Manhã 14/12/2019">
+      <created>1576332561411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576332561411</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59341000" />
+    <option name="totallyTimeSpent" value="59827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21115974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49562362" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.50875276" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.49124727" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -257,25 +298,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -285,15 +307,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correções" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correções" />
+    <MESSAGE value="Manhã 14/12/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manhã 14/12/2019" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libchart/libchart/classes/view/chart/HorizontalBarChart.php" />
-    <entry file="file://$PROJECT_DIR$/libchart/demo/MultipleHorizontalBarChartTest.php" />
     <entry file="file://$PROJECT_DIR$/libchart/demo/index.php" />
     <entry file="file://$PROJECT_DIR$/../sistema/libchart/libchart/classes/view/axis/Bound.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -378,6 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="27" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -410,6 +432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -483,10 +506,26 @@
     <entry file="file://$PROJECT_DIR$/pdo/index28.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <marker date="1576330660295" expanded="true" signature="186:229" ph="SELECT * FRO... tb_usuarios" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/index10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/index16.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
