@@ -86,8 +86,8 @@ class Usuario
     {
         $sql = new Sql();
 
-        return $sql->select("SELECT * FROM tb_usuarios WHERE deslogin LIKE :SEARCH ORDER BY idusuario", array(
-            ':SEARCH' => "%" . $login . "%"
+        return $sql->select("SELECT * FROM tb_usuarios WHERE deslogin LIKE :LOGIN ORDER BY idusuario", array(
+            ':LOGIN' => "%" . $login . "%"
         ));
     }
 
@@ -133,6 +133,20 @@ class Usuario
             ':SENHA' => $this->getDessenha(),
             ':ID' => $this->getIdusuario()
         ));
+    }
+
+    public function delete()
+    {
+        $sql = new Sql();
+
+        $sql->select("DELETE FROM tb_usuarios WHERE idusuario = :ID", array(
+            ':ID' => $this->getIdusuario()
+        ));
+
+        $this->setIdusuario(0);
+        $this->setDeslogin("");
+        $this->setDessenha("");
+        $this->setDtcadastro(new DateTime());
     }
 
     public function __construct($login = "", $senha = "")

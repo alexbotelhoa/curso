@@ -65,7 +65,16 @@ require_once ("config.php");
 /**
  * Alteração de usuario no banco com UPDATE sem procedure
  */
+//$usuario = new Usuario();
+//$usuario->searchId(30);
+//$usuario->update("Italo", "852456");
+//echo $usuario;
+
+
+/**
+ * Apagar usuario no banco com DELETE sem procedure
+ */
 $usuario = new Usuario();
-$usuario->searchId(30);
-$usuario->update("Italo", "852456");
+$usuario->searchId(29);
+$usuario->delete();
 echo $usuario;
