@@ -8,18 +8,38 @@
 
 $conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "");
 
-//$stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUE (:LOGIN, :PASSWORD)");
-//$stmt = $conn->prepare("DELETE FROM tb_usuarios WHERE idusuario = :ID");
-$stmt = $conn->prepare("UPDATE tb_usuarios SET deslogin = :LOGIN, dessenha = :PASSWORD WHERE idusuario = :ID");
+$conn->beginTransaction();
+
+/**............................................**/
+
+//$stmt1 = $conn->prepare("UPDATE tb_usuarios SET deslogin = :LOGIN, dessenha = :PASSWORD WHERE idusuario = :ID");
+$stmt1 = $conn->prepare("DELETE FROM tb_usuarios WHERE idusuario = :ID");
+
+//$stmt1->bindParam(":LOGIN", $login);
+//$stmt1->bindParam(":PASSWORD", $password);
+$stmt1->bindParam(":ID", $id);
 
 $login = "user";
 $password = "4444";
-$id = 2;
+$id = 7;
 
-$stmt->bindParam(":LOGIN", $login);
-$stmt->bindParam(":PASSWORD", $password);
-$stmt->bindParam(":ID", $id);
+echo ($stmt1->execute() === true ? "Transação [1] OK" : "Transação [1] BUGADA!!!") . "<br>";
 
+/**............................................**/
 
-//echo ($stmt->execute() === true ? "Dados inseridos com sucesso!" : "Houve problema na inserção dos dados");
-echo ($stmt->execute() === true ? "Dados alterados com sucesso!" : "Houve problema na alteração dos dados");
+//$stmt2 = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUE (:LOGIN, :PASSWORD)");
+$stmt2 = $conn->prepare("DELETE FROM tb_usuarios WHERE idusuario = :ID");
+
+///$stmt2->bindParam(":LOGIN", $login);
+//$stmt2->bindParam(":PASSWORD", $password);
+$stmt2->bindParam(":ID", $id);
+
+$login = "alexbotelho";
+$password = "1111111";
+$id = 8;
+
+echo ($stmt2->execute() === true ? "Transação [2] OK" : "Transação [2] BUGADA!!!") . "<br>";
+
+/**............................................**/
+
+echo (($stmt1->execute() === true AND $stmt2->execute() === true) ? "Transações [1] e [2] realizadas com sucesso!" . $conn->commit() : "Transações [1] e [2] NÃO realizadas!!!" . $conn->rollBack());
