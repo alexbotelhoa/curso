@@ -6,9 +6,10 @@
  * Time: 15:11
  */
 
-class Sql extends PDO {
+class Sql extends PDO
+{
 
-    private  $conn;
+    private $conn;
 
     public function __construct()
     {
@@ -17,8 +18,7 @@ class Sql extends PDO {
 
     private function setParams($statement, $parameters = array())
     {
-        foreach ($parameters as $key => $value)
-        {
+        foreach ($parameters as $key => $value) {
             $this->setParam($statement, $key, $value);
         }
     }
@@ -39,10 +39,11 @@ class Sql extends PDO {
         return $statement;
     }
 
-    public function select($rawQuery, $parameters = array()):array
+    public function select($rawQuery, $parameters = array()): array
     {
         $statement = $this->query($rawQuery, $parameters);
 
         return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
+
 }

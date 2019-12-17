@@ -42,6 +42,30 @@ require_once ("config.php");
 /**
  * Busca um usuario com Login e Senha usando a class Usuario (Autenticação)
  */
-$loginSenha = new Usuario();
-$loginSenha->searchLoginPassword("alexbotelhoo","12345");
-echo $loginSenha;
+//$loginSenha = new Usuario();
+//$loginSenha->searchLoginPassword("alexbotelhoo","12345");
+//echo $loginSenha;
+
+
+/**
+ * Inserção de usuário no banco com INSERT via procedure
+ */
+//$usuario = new Usuario();
+//$usuario->setDeslogin("Marcel");
+//$usuario->setDessenha("987654");
+//$usuario->insert();
+/**
+ * OU com o construtor
+ */
+//$usuario = new Usuario("Marcel 2", "456123");
+//$usuario->insert();
+//echo $usuario;
+
+
+/**
+ * Alteração de usuario no banco com UPDATE sem procedure
+ */
+$usuario = new Usuario();
+$usuario->searchId(30);
+$usuario->update("Italo", "852456");
+echo $usuario;

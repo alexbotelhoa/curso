@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bda63feb-f0f8-4e3e-88f3-a3192f8e7f5a" name="Default" comment="Tarde 17/12/2019">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dao/class/Usuario.php" />
+    <list default="true" id="bda63feb-f0f8-4e3e-88f3-a3192f8e7f5a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/class/Sql.php" afterPath="$PROJECT_DIR$/dao/class/Sql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/config.php" afterPath="$PROJECT_DIR$/dao/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/class/Usuario.php" afterPath="$PROJECT_DIR$/dao/class/Usuario.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/index.php" afterPath="$PROJECT_DIR$/dao/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script_cursophp7.sql" afterPath="$PROJECT_DIR$/script_cursophp7.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +57,8 @@
       <file leaf-file-name="Sql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/class/Sql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="731">
+              <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,15 +67,16 @@
       <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dao/class/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+            <state relative-caret-position="443">
+              <caret line="134" column="11" lean-forward="true" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
               <folding>
-                <marker date="1576597891271" expanded="true" signature="1014:1061" ph="SELECT * FRO... tb_usuarios" />
-                <marker date="1576597891271" expanded="true" signature="1469:1513" ph="SELECT * FRO... tb_usuarios" />
-                <marker date="1576597891271" expanded="true" signature="1634:1696" ph="SELECT * FRO... tb_usuarios" />
-                <marker date="1576597891271" expanded="true" signature="1634:1706" ph="SELECT * FRO... tb_usuarios" />
-                <marker date="1576597891271" expanded="true" signature="1900:1944" ph="SELECT * FRO... tb_usuarios" />
-                <marker date="1576597891271" expanded="true" signature="1900:1971" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="1270:1317" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="1557:1601" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="1722:1784" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="1722:1794" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="1988:2032" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="1988:2059" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576601913262" expanded="true" signature="2833:2914" ph="UPDATE tb_us... " />
               </folding>
             </state>
           </provider>
@@ -84,10 +85,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+            <state relative-caret-position="494">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <marker date="1576598282759" expanded="true" signature="231:256" ph="SELECT * FRO... tb_usuarios" />
+                <marker date="1576602315210" expanded="true" signature="231:256" ph="SELECT * FRO... tb_usuarios" />
               </folding>
             </state>
           </provider>
@@ -170,9 +171,9 @@
         <option value="$PROJECT_DIR$/dao/sql.php" />
         <option value="$PROJECT_DIR$/dao/Sql.php" />
         <option value="$PROJECT_DIR$/dao/config.php" />
+        <option value="$PROJECT_DIR$/dao/class/Sql.php" />
         <option value="$PROJECT_DIR$/dao/class/Usuario.php" />
         <option value="$PROJECT_DIR$/dao/index.php" />
-        <option value="$PROJECT_DIR$/dao/class/Sql.php" />
       </list>
     </option>
   </component>
@@ -278,7 +279,7 @@
       <workItem from="1576170123462" duration="9073000" />
       <workItem from="1576268218335" duration="9322000" />
       <workItem from="1576326304018" duration="4728000" />
-      <workItem from="1576494834212" duration="21383000" />
+      <workItem from="1576494834212" duration="24849000" />
     </task>
     <task id="LOCAL-00001" summary="Correções">
       <created>1576101369292</created>
@@ -315,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576586180591</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tarde 17/12/2019">
+      <created>1576598860770</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576598860770</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81313000" />
+    <option name="totallyTimeSpent" value="84779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1152" height="1047" extended-state="0" />
@@ -568,35 +576,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/index.php">
+    <entry file="file://$PROJECT_DIR$/dao/class/Sql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-          <folding>
-            <marker date="1576598282759" expanded="true" signature="231:256" ph="SELECT * FRO... tb_usuarios" />
-          </folding>
+        <state relative-caret-position="731">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/class/Sql.php">
+    <entry file="file://$PROJECT_DIR$/dao/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="494">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <marker date="1576602315210" expanded="true" signature="231:256" ph="SELECT * FRO... tb_usuarios" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/class/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="443">
+          <caret line="134" column="11" lean-forward="true" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
           <folding>
-            <marker date="1576597891271" expanded="true" signature="1014:1061" ph="SELECT * FRO... tb_usuarios" />
-            <marker date="1576597891271" expanded="true" signature="1469:1513" ph="SELECT * FRO... tb_usuarios" />
-            <marker date="1576597891271" expanded="true" signature="1634:1696" ph="SELECT * FRO... tb_usuarios" />
-            <marker date="1576597891271" expanded="true" signature="1634:1706" ph="SELECT * FRO... tb_usuarios" />
-            <marker date="1576597891271" expanded="true" signature="1900:1944" ph="SELECT * FRO... tb_usuarios" />
-            <marker date="1576597891271" expanded="true" signature="1900:1971" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="1270:1317" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="1557:1601" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="1722:1784" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="1722:1794" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="1988:2032" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="1988:2059" ph="SELECT * FRO... tb_usuarios" />
+            <marker date="1576601913262" expanded="true" signature="2833:2914" ph="UPDATE tb_us... " />
           </folding>
         </state>
       </provider>
