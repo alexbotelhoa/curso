@@ -26,9 +26,15 @@ require_once ("config.php");
 
 
 /**
- * Busca todos os usuario pela class Usuario
+ * Busca TODOS os usuario pela class Usuario
  */
-//$searchUsers = Usuario::searchAll();
+//COM CONSTRUTOR
+//$searchUsers = Usuario::searchAllCC();
+//echo json_encode($searchUsers);
+
+//SEM CONSTRUTOR
+$searchUsers = new Usuario();
+$searchUsers->searchAllSC();
 //echo json_encode($searchUsers);
 
 
@@ -74,7 +80,7 @@ require_once ("config.php");
 /**
  * Apagar usuario no banco com DELETE sem procedure
  */
-$usuario = new Usuario();
-$usuario->searchId(29);
-$usuario->delete();
-echo $usuario;
+//$usuario = new Usuario();
+//$usuario->searchId(29);
+//$usuario->delete();
+//echo $usuario;

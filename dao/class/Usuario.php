@@ -75,11 +75,20 @@ class Usuario
         }
     }
 
-    public static function searchAll()
+    public static function searchAllCC()
     {
         $sql = new Sql();
 
-        return $sql->select("SELECT * FROM tb_usuarios ORDER BY idusuario;");
+        return $sql->select("SELECT * FROM tb_usuarios ORDER BY idusuario");
+    }
+
+    public function searchAllSC()
+    {
+        $sql = new Sql();
+
+        $result = $sql->select("SELECT * FROM tb_usuarios ORDER BY idusuario");
+
+        return var_dump($result);
     }
 
     public static function searchLogin($login)
