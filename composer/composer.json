@@ -1,0 +1,20 @@
+{
+    "name": "alexbotelho/composer",
+    "description": "Aula de PHP7 Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex Botelho",
+            "email": "alexbbotelho1@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
+
+
+/**
+
+
