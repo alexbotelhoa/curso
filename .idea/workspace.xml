@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bda63feb-f0f8-4e3e-88f3-a3192f8e7f5a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/curso.iml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/curso.iml" afterPath="$PROJECT_DIR$/.idea/Curso PHP7.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/email/index.php" afterPath="$PROJECT_DIR$/email/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,40 +47,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/email/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contents.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/email/contents.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ecommerce/email/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-              <folding>
-                <element signature="e#498#532#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,6 +153,10 @@
     <include_path>
       <path value="$PROJECT_DIR$/email/vendor/composer" />
       <path value="$PROJECT_DIR$/email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer/examples" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer/language" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer/extras" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer_/phpmailer" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -212,11 +186,11 @@
         <subPane>
           <expand>
             <path>
-              <item name="curso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso PHP7" type="b2602c69:ProjectViewProjectNode" />
               <item name="curso" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="curso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso PHP7" type="b2602c69:ProjectViewProjectNode" />
               <item name="curso" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="email" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -224,8 +198,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,6 +262,7 @@
       <workItem from="1576851441507" duration="16699000" />
       <workItem from="1577102269311" duration="1182000" />
       <workItem from="1578315203201" duration="4127000" />
+      <workItem from="1582284906889" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Correções">
       <created>1576101369292</created>
@@ -384,13 +359,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158426000" />
+    <option name="totallyTimeSpent" value="158457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1258" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1736227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17612688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.52625823" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -724,16 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
           <caret line="109" column="3" lean-forward="true" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
-          <folding>
-            <element signature="e#498#532#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/contents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -742,25 +706,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/email/vendor/phpmailer/phpmailer/src/PHPMailer.php">
+    <entry file="file://$PROJECT_DIR$/email/vendor/phpmailer/phpmailer/src/PHPMailer.php" />
+    <entry file="file://$PROJECT_DIR$/../ecommerce/email/index.php" />
+    <entry file="file://$PROJECT_DIR$/email/contents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="1379" column="17" lean-forward="false" selection-start-line="1379" selection-start-column="17" selection-end-line="1379" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ecommerce/email/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="e#498#532#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

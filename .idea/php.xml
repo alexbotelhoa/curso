@@ -4,6 +4,10 @@
     <include_path>
       <path value="$PROJECT_DIR$/email/vendor/composer" />
       <path value="$PROJECT_DIR$/email/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer/examples" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer/language" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer/extras" />
+      <path value="$PROJECT_DIR$/email/vendor/phpmailer_/phpmailer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
